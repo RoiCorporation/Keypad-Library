@@ -1,5 +1,9 @@
 #line 1 "/Users/roilopezbarata/Documents/Arduino/matrix_keypad/Keypad_Library.h"
 
+// Important: this version of the library will be updated by changing
+// the language to C++
+
+
 #ifndef KEYPAD_LIBRARY_H
 #define KEYPAD_LIBRARY_H
 
