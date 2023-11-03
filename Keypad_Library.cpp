@@ -1,8 +1,18 @@
 #include "Keypad_Library.h"
 
 
-
 // Function definitions for the 4 by 3 keypad implementation
+
+
+Keypad::Keypad(int rows, int cols) {
+  this->rows = rows;
+  this->cols = cols;
+}
+
+
+
+
+
 
 
 void initialize_4_by_3(int o1, int o2, int o3, int o4, int i1, int i2, int i3, Keypad_4_by_3 *my_keypad) {

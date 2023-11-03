@@ -9,13 +9,19 @@
 
 
 
+
 #include <Arduino.h>
+
+
+#include <vector>
+#include <string>
 
 #define DELAY_TIME 180
 
 typedef char *Password;
 
-// Testing testing testing branches
+using Password = std::vector<std::string>;
+
 
 
 
@@ -40,6 +46,28 @@ struct Keypad_4_by_3 {
   int in_3;
 
 };
+
+
+class Keypad {
+
+
+  private:
+    int rows;
+    int cols;
+    char layout[][];
+
+
+  public:
+
+    Keypad(int rows, int cols, );
+
+
+
+
+};
+
+
+
 
 
 
